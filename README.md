@@ -10,6 +10,7 @@
     <ul>
       <li>image : https://unsplash.com/</li>
       <li>font : https://fonts.google.com/</li>
+      <li>favicon : https://www.flaticon.com/</li>
     </ul> 
  
  <h5>Demo : https://arsya-tasty-food.netlify.app/</h5>
