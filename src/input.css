@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .grid-card{
+        @apply aspect-square overflow-hidden hover:scale-95 hover:rounded-lg transition duration-500 shadow-lg ;
+    }
+    .grid-card-image{
+        @apply h-full object-cover hover:scale-110 transition duration-500
+    }
+    .header{
+        @apply text-4xl font-ibm font-bold text-coklat text-center md:col-start-1 md:col-end-3 md:text-5xl lg:text-6xl lg:mb-12 lg:col-start-1 lg:col-end-4;
+    }
+    .sub-header{
+        @apply font-ibm text-center mb-14  md:col-start-1 md:col-end-3 md:text-xl lg:w-3/4 lg:mx-auto lg:col-start-1 lg:col-end-4 lg:text-2xl lg:font-medium;
+    }
+}
